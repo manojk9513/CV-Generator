@@ -1,0 +1,36 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'pdf/style.css' %}">
+    </head>
+    <body>
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+            <h2>{{user_profile.name}}</h2>
+            <h4>{{user_profile.email}}</h4>
+            <h4>{{user_profile.phno}}</h4>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" style="background-color:#bbb;">
+                <h2>{{user_profile.summery}}</h2>
+                <h2>{{user_profile.exprience}}</h2>
+                <h2>{{user_profile.skills}}</h2>
+                <h2>{{user_profile.school}}</h2>
+                <h2>{{user_profile.university}}</h2>
+                <h2>{{user_profile.degree}}</h2>
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
